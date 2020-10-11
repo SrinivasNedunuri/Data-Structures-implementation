@@ -140,3 +140,5 @@ class d_linkedlist():
             previousNode.setNext(currentNode.getNext())
             currentNode.getNext().setPrev(previousNode)
             self.length -= 1
+            
+        #
